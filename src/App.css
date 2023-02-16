@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prompts{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  
+}
+.prompt-input {
+  /* margin: 10px; */
+  height: 20px;
+  width: 350px;
+}
+.prompt-size{
+  margin: 20px;
+}
+.result-image {
+  width: 350px;
+  margin-top: 20px;
+}
+button{
+  margin-top: 20px;
+}
